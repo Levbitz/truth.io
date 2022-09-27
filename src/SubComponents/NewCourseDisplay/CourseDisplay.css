@@ -1,0 +1,136 @@
+.lb_container_wrap {
+  width: 90%;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  .lb_container_wrap {
+    width: 100%;
+    margin: auto;
+  }
+}
+.lb_singleProperty_wrap {
+  margin: 10px;
+}
+.card-title {
+  font-weight: bold !important;
+  color: #040f2e !important;
+}
+
+.card-content {
+  padding: 5px 0px !important;
+}
+
+.card .card-action {
+  background-color: inherit;
+  border-top: none !important;
+  position: relative;
+  padding: 5px 0px;
+}
+.card .card-action span {
+  font-weight: bold;
+  font-size: 19px;
+}
+.card-image img {
+  width: 240px;
+  height: 180px;
+  border-radius: 5px !important;
+  /* object-fit: contain; */
+}
+
+@media screen and (max-width: 600px) {
+  .card-image img {
+    width: 100% !important;
+    height: auto !important;
+
+    object-fit: contain;
+  }
+}
+
+.stars {
+  color: #eb8a2f;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.bestsellerBadge {
+  width: 30%;
+  padding: 3px 2px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: #ffe799;
+  color: #593d00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+}
+
+@media screen and (max-width: 600px) {
+  .bestsellerBadge {
+    width: 50%;
+    padding: 2px 1px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #ffe799;
+    color: #593d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+  }
+}
+.levbitz_instructor_name {
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 0.9rem !important;
+  color: #bdbdbd;
+}
+
+@media screen and (max-width: 600px) {
+  .levbitz_instructor_name {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 0.6rem !important;
+    color: #bdbdbd;
+  }
+}
+
+.levbitz_ratingDiv {
+  margin-top: -10px !important;
+  font-weight: bold;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 15px !important;
+  color: #eb8a2f !important;
+}
+
+.course_name {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.1rem;
+  color: #040f2e;
+}
+
+@media screen and (max-width: 600px) {
+  .course_name {
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02rem;
+    font-size: 0.8rem !important;
+    color: #040f2e;
+  }
+}

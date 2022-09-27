@@ -1,0 +1,32 @@
+.service_wrap {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.levbitz_single_service_wrap {
+  padding: 20px;
+  border-radius: 10;
+  background-color: #fff;
+  transition: all 0.5s ease 0s;
+  border-radius: 8px;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+  /* border: 1px #ec407a solid; */
+}
+
+.levbitz_single_service_wrap:hover {
+  background: #fafafa;
+  /* border: 1px red solid; */
+}
+
+.levbitz_single_service_wrap p {
+  font-size: 15px;
+}
+
+.levbitz_single_service_wrap h5 {
+  color: rgb(5, 5, 133);
+  transition: 0.5 ease;
+}
+.levbitz_single_service_wrap:hover h5 {
+  color: #ec407a;
+  transition: 0.5 ease;
+}

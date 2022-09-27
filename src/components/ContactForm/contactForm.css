@@ -1,0 +1,41 @@
+.fabian_inputshowcase_wrap {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.input-field.input-outlined > input {
+  border: 1px solid #ced4da;
+  /* padding: 12px 16px 14px; */
+  /* width: calc(100% - 2.5rem); */
+  float: none;
+  display: block;
+  border-radius: 4px;
+  transition: box-shadow, border-color 0.15s;
+  margin-top: -20px;
+  height: 42px;
+  background-color: #fff;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #26a69b;
+  box-shadow: 0 1px 0 0px #26a69b;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.fabian_multiple_select {
+  border: 1px solid #ced4da;
+  padding-right: 10px;
+  height: 48px;
+  border-radius: 5px;
+  margin-top: -8px;
+}

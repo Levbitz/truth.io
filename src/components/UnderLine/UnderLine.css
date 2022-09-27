@@ -1,0 +1,28 @@
+.levbitz_underline_wrap {
+  margin: 0px;
+}
+
+.levbitz_underLine_style {
+  background: #ec407a;
+  width: 80px;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.levbitz_underline_wrap h6 {
+  font-weight: bold;
+  text-transform: capitalize !important;
+}
+
+.levbitz_underline_wrap:hover {
+  cursor: pointer;
+}
+
+.levbitz_underline_wrap:hover .levbitz_underLine_style {
+  background: red;
+  width: 120px;
+  height: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}

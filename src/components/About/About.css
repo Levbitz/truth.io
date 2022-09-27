@@ -1,0 +1,32 @@
+.lb_about_comp {
+  margin-top: 60px;
+}
+
+.lb_about_comp p {
+  margin-bottom: 20px;
+}
+
+.lb_about_comp h4 {
+  font-weight: bold;
+}
+
+.lb_abt_comp_btn_wrap {
+  margin-top: 40px;
+}
+
+.lb_abt_comp_btn {
+  background: #e91e63;
+
+  color: #fff;
+  padding: 5px 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.lb_abt_comp_btn:hover {
+  background-color: #000;
+  cursor: pointer;
+  transition: 2s ease;
+  border-radius: 0px;
+}

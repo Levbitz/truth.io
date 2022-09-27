@@ -1,0 +1,22 @@
+.levbitz_portfolio_wrap {
+  cursor: pointer;
+}
+
+.levbitz_portfolio_content {
+  display: none;
+}
+
+.levbitz_portfolio_wrap:hover .levbitz_portfolio_content {
+  display: block;
+  transition: 2s ease;
+}
+
+.levbitz_portfolio_wrap:hover img {
+  opacity: 0.5;
+}
+
+.levbitz_portfolio_content span {
+  color: black !important;
+  font-weight: bold !important;
+  text-transform: capitalize !important;
+}

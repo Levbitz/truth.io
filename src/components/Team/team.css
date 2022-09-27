@@ -1,0 +1,10 @@
+.levbitz_team_name {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+.levbitz_team_image:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+}

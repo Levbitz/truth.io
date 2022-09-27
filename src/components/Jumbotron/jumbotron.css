@@ -1,0 +1,22 @@
+.lb_jumbo_wrap {
+  padding: 50px 10px;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.lb_jumbo_title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.lb_jumbo_text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.lb_jumbo_image {
+  border-left: 10px #2caee2 solid;
+  border-bottom: 10px #2caee2 solid;
+  border-width: 90%;
+}

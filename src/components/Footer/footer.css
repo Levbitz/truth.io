@@ -1,0 +1,28 @@
+.footer_wrapper {
+  /* background: linear-gradient(120deg, #064757 20%, #04afda); */
+  padding-top: 10px;
+  padding-bottom: 30px;
+  /* margin-top: 30px; */
+}
+
+.footer_wrapper p {
+  margin-top: 10px;
+}
+.credits {
+  margin-top: 30px;
+}
+
+.footer_wrapper p {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+.footer_wrapper h6 {
+  font-weight: bold;
+}
+
+.bottom_wrap {
+  margin-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
