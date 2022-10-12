@@ -60,7 +60,7 @@ function Footer() {
           <div className="row">
             <div className="col l3 s6">
               <div>
-                <h6 className="black-text">Serpen Technology</h6>
+                <h6 className="black-text">Serpens Technology</h6>
 
                 <Link to="" className="black-text">
                   <p className="black-text">

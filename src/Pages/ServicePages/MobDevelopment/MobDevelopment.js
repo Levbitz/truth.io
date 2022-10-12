@@ -6,7 +6,11 @@ import FedelityShit from "../../../components/FedelityShit/FedelityShit";
 function MobDevelopment() {
   return (
     <div>
-      <Topbanner Bg={DepartOne} title="Mobile " UrlName=" Mobo Development " />
+      <Topbanner
+        Bg={DepartOne}
+        title="Mobile app development "
+        UrlName=" Mobile app development "
+      />
       <div className="container">
         <h2 className="levbitz_title center">
           So, what is Mobile App Development?

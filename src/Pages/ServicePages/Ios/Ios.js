@@ -3,11 +3,18 @@ import Topbanner from "../../../components/Topbanner/Topbanner";
 import DepartOne from "../../../assets/port.png";
 import IsoImg from "../../../assets/ios.jpeg";
 import FedelityShit from "../../../components/FedelityShit/FedelityShit";
+import { Link } from "react-router-dom";
+import { HiChevronDoubleRight } from "react-icons/hi";
 
 function Ios() {
   return (
     <div>
-      <Topbanner Bg={DepartOne} title="iOS " UrlName=" Ios Development " />
+      <Topbanner
+        Bg={DepartOne}
+        title="iOS "
+        children={"iOS"}
+        UrlName="  Development  "
+      />
       <div>
         <div className="container">
           <h1 className="levbitz_title center">

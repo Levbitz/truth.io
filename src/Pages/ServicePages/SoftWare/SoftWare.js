@@ -6,7 +6,11 @@ import FedelityShit from "../../../components/FedelityShit/FedelityShit";
 function SoftWare() {
   return (
     <div>
-      <Topbanner Bg={DepartOne} title="SoftWare " UrlName=" SoftWare " />
+      <Topbanner
+        Bg={DepartOne}
+        title=" SoftWare development "
+        UrlName=" custome SoftWare development "
+      />
       <div className="container">
         <h2 className="levbitz_title center">
           So, what is Custom Software Development?

@@ -5,17 +5,17 @@ import DepartOne from "../../../assets/port.png";
 function Ecommerce() {
   return (
     <div>
-      <Topbanner Bg={DepartOne} title="Ecommerce " UrlName=" Ecommerce " />
+      <Topbanner Bg={DepartOne} title="E-commerce " UrlName=" E-commerce " />
       <div>
         <h2 className="levbitz_title center">
           {" "}
-          Why do businesses need an eCommerce website?
+          Why do businesses need an e-Commerce website?
         </h2>
         <div className="container">
           <div className="row">
             <div className="col l12">
               <p>
-                eCommerce website offers you the luxury to display all the
+                e-Commerce website offers you the luxury to display all the
                 product collections on a single platform. Webomindapps is the
                 answer you are looking for! Our team will always use the best
                 user interface functionalities engaging the customers

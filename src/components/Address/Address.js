@@ -64,11 +64,7 @@ function Address() {
       </p>
       <h6 className=" pink-text lighten-1-text"> Customer Support</h6>
 
-      <p>
-        <a className="black-text" href="mailto:support@serpenstech.com">
-          support@serpenstech.com
-        </a>
-      </p>
+     
     </div>
   );
 }

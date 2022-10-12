@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { HiChevronDoubleRight } from "react-icons/hi";
 import "./topbanner.css";
 
-function Topbanner({ Bg, title, UrlName }) {
+function Topbanner({ Bg, title, UrlName, children }) {
   return (
     <div
       style={{ backgroundImage: `url(${Bg})` }}
@@ -12,7 +12,7 @@ function Topbanner({ Bg, title, UrlName }) {
     >
       <div className="container">
         <div className="row">
-          <div className="col l5 s12">
+          <div className="col l12 s12">
             <h3 className="white-text ">{title}</h3>
 
             <div
@@ -26,6 +26,7 @@ function Topbanner({ Bg, title, UrlName }) {
               </Link>
 
               <HiChevronDoubleRight color={"#fff"} size={13} />
+              <span className="lb_topLink-2">{children}</span>
               <span className="center lb_topLink"> {UrlName}</span>
             </div>
           </div>

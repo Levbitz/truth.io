@@ -7,7 +7,11 @@ import FedelityShit from "../../../components/FedelityShit/FedelityShit";
 function WebDev() {
   return (
     <div>
-      <Topbanner Bg={DepartOne} title="Web Dev " UrlName=" Web Dev " />
+      <Topbanner
+        Bg={DepartOne}
+        title="Web Development "
+        UrlName=" Web Development "
+      />
       <div className="container">
         <div className="row">
           <h2 className="levbitz_title center">So, what is Web Development?</h2>

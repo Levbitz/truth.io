@@ -9,7 +9,7 @@ function Ai() {
       <Topbanner
         Bg={DepartOne}
         title="Artificial Intelligence"
-        UrlName="artifical Intelligence page"
+        UrlName="artificial Intelligence"
       />
       <div className="container">
         <h2 className="levbitz_title center">

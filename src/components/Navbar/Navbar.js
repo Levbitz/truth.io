@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import NavdropDown from "../../SubComponents/NavdropDown/NavdropDown";
 import Logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
@@ -13,16 +13,21 @@ import { GiClothes } from "react-icons/gi";
 //import { DiCodeigniter } from "react-icons/di";
 import { GrCodepen } from "react-icons/gr";
 import { motion } from "framer-motion";
+
 import "./navbar.css";
 
 const Navbar = () => {
   const navigate = useNavigate();
 
   //toggle
+  const [isOpen, setIsOpen] = useState(false);
   const [click, setClick] = useState(false);
   // const history = useHistory();
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false);
+    setIsOpen(false);
+  };
 
   console.log(click);
 
@@ -62,7 +67,13 @@ const Navbar = () => {
             to="/"
             className="brand-logo left myLogo white-text "
           >
-            <img className="white" width={150} src={Logo} alt="" />
+            <img
+              onClick={() => setIsOpen(false)}
+              className="white"
+              width={150}
+              src={Logo}
+              alt=""
+            />
           </Link>
 
           <div className="menu-icon black-text " onClick={handleClick}>
@@ -84,9 +95,64 @@ const Navbar = () => {
             {/*<li>
               <MainSearchForm />
             </li>*/}
+
             <li>
-              <NavdropDown topee={click} className="nav-links" />
+              <div className=" left">
+                <div
+                  style={{
+                    position: "relative",
+                  }}
+                >
+                  <p
+                    style={{
+                      color: "#ff4820 ",
+                      fontSize: "13px",
+                      margin: 0,
+                      padding: 0,
+                    }}
+                    onClick={() => {
+                      setIsOpen(!isOpen);
+                    }}
+                  >
+                    <span
+                      style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                      }}
+                    >
+                      <span
+                        style={{
+                          textTransform: "capitalize",
+                        }}
+                        className="nav-links"
+                      >
+                        Services
+                      </span>
+                      <span
+                        style={{
+                          marginTop: 7,
+                        }}
+                      >
+                        {isOpen ? (
+                          <RiArrowDropUpLine size={20} color="#000" />
+                        ) : (
+                          <RiArrowDropDownLine size={20} color="#000" />
+                        )}
+                      </span>
+                    </span>
+                  </p>
+
+                  <NavdropDown
+                    closeMobileMenu={closeMobileMenu}
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    setClick={setClick}
+                    click={click}
+                  />
+                </div>
+              </div>
             </li>
+
             <li>
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 <div style={{ display: "flex", alignItems: "center" }}>

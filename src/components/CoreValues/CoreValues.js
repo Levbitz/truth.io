@@ -20,7 +20,7 @@ function CoreValues() {
           <div className="col l6 s12">
             <section>
               <p className="center">
-                <FaLightbulb size={32} color={"#ec407a"} />
+                <FaLightbulb size={36} color={"#ec407a"} />
               </p>
               <h4 className="center">Our Vision</h4>
               <p>

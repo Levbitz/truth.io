@@ -36,7 +36,7 @@ function Countdown() {
             <CountUp className="lb_count_num white-text" end={4} duration={5} />
             <h5 className="lb_countdown_text white-text">
               {" "}
-              years of exprience
+              Years of Experience
             </h5>
           </div>
           <div className="col l3 s6 center">

@@ -64,6 +64,7 @@ function Services() {
               title={"Artificial Intelligence"}
             />
             <SingleService
+              linko={"digital_marketing"}
               text={
                 "SEO, SEM, PPC, SMO, Content marketing and social media networking, etc. comprise a perfect digital marketing strategy. We are Google certified marketing professionals as well as ..."
               }
